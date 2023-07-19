@@ -31,7 +31,7 @@
     <repository>
       <id>github</id>
       <name>GitHub OWNER Apache Maven Packages</name>
-        <url>https://maven.pkg.github.com/lnds/ci-lab-2023-1</url>
+        <url>https://maven.pkg.github.com/obdura/ci-lab-2023-1</url>
     </repository>
   </distributionManagement>
 

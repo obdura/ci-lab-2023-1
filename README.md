@@ -2,6 +2,7 @@
 laboratorio de integración continua
 
 
+
 # GitHub Actions
 
 - Configura una action importando el plugin Maven, tal como lo mostró el profesor

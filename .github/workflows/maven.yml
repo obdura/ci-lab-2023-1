@@ -40,9 +40,12 @@ jobs:
       with:
         name: Package
         path: staging
+        
+    - name: Print
+      run: echo ${{ secrets.USERNAME }}
 
     - name: Publish to GitHub Packages Apache Maven
-      run: mvn deploy -e -s .m2/settings.xml
+      run: mvn deploy -s .m2/settings.xml
       env:
          GITHUB_TOKEN: ${{ secrets.TOKEN }}
          USERNAME: ${{ secrets.USERNAME }}

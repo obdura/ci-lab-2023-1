@@ -45,4 +45,3 @@ jobs:
       run: mvn deploy -s .m2/settings.xml
       env:
          TOKEN: ${{ github.TOKEN }}
-         USERNAME: ${{ github.USERNAME }}
